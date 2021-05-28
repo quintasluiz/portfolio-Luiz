@@ -1,0 +1,316 @@
+header{
+    display: flex;
+    justify-content: space-between;
+    background-color: #7C5E99;
+    border-bottom: 10px solid #000;
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    padding-top: 0.6rem;
+    padding-bottom: 0.8rem;
+    
+}
+
+nav {
+    text-align: right;
+    
+   
+}
+a{
+    display: inline-flex;
+    align-items: center;
+    color: #FFF;
+    font-size: 1.2rem;
+    font-family: "Fira Code";
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 1.3rem;
+   
+    
+}
+
+.action:hover{
+    color: yellow;
+}
+
+.button{
+    display: inline-block;
+    background-color: #F25A70;
+    padding: 1rem 1.3rem;
+    border-radius: 5px;
+    box-shadow: 5px 5px 0 #000;
+    margin-right: 0;
+    transition: transform 100ms linear;
+}
+
+.button:hover{
+    transform:scale(1.08);
+}
+
+.main-title{
+    font-family:'Press Start 2p', cursive;
+    font-size: 2rem;
+    color: #F25A70;
+    text-shadow: 4px 4px 0 #000;
+    
+    
+}
+
+.subtitle {
+    font-family: 'Press Start 2p', sans-serif;
+    font-size: 1.8rem;
+    text-shadow: 4px 4px 0 #000;
+    color: #fff;
+}
+
+.box{
+    display:inline-block;
+    background-color: #3A4042;
+    width: 90%;
+    box-shadow: 10px 10px 0 #000;
+    text-align: center;
+    padding: 3.6rem 2.3rem;
+    margin-bottom: 3rem;
+    margin-top: 4rem;
+    
+}
+
+#box h1 {
+    margin-bottom: 1.4rem;
+}
+
+.banner{
+    box-sizing: border-box;
+    background-image: url(img/guil.png);
+    background-repeat: no-repeat;
+    
+    background-size: 100%;
+    background-size: cover;
+    height: 80vh;
+    border-bottom: 10px solid #000;
+    background-position: right;
+    padding-top: 2rem;
+    padding-left: 6rem;
+    
+    
+}
+
+
+.banner .wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+   
+    
+}
+
+.banner .navigation {
+    display: flex;
+    justify-content:space-around ;
+    
+
+}
+
+.main-title.-second{
+    color: #FFF;
+    text-shadow: none;
+    text-align: center;
+   
+}
+
+.section{
+    background-color: #F25A70;
+    padding-top: 4rem;
+    padding-bottom: 6rem;
+    border-bottom: 10px solid #7C5E99;
+    
+
+}
+
+.section .main-title{
+    margin-bottom: 6rem;
+}
+
+.skill-tec{
+    display: flex;
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 1.5rem;
+    color: #fff;
+    align-items: center;
+    
+}
+
+.section.-bgBlack {
+    background-color: black;
+}
+
+.section.-bdFirst {
+    border-color: #F25A70;
+}
+
+.skill-tec .icon {
+    margin-right: 2rem;
+    width: 20%;
+    margin-left: 2rem;
+}
+
+.progress-bar {
+    box-sizing: border-box;
+    border: 5px solid #000;
+    height: 40px;
+   
+    
+    
+}
+
+.progress-bar::-webkit-progress-bar,
+.progress-bar::-moz-progress-bar{
+    background-color: #7C5E99;
+
+}
+.skill-tec .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   
+
+}
+
+.skill-tec .title{
+    margin-bottom: 10px;
+}
+
+.wrapper-skill {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+   
+    
+}
+
+.wrapper-skill .skill-tec {
+    width: 430px;
+    margin-bottom: 40px;
+}
+
+.wrapper-skill .skill-tec:nth-child(odd) {
+    margin-right: 80px;
+}
+
+.wrapper-skill .progress-bar{
+    width: 320px;
+}
+
+.wrapper-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card-project {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #7C5E99;
+    width: 280px;
+    height: 280px;
+    box-shadow: 10px 10px 0px #FFF;
+}
+
+.logo {
+  width: 280px;
+  height: 280px;
+}
+
+.main-description {
+    color: #FFF;
+    font-size: 2rem;
+    font-weight: 300;
+    line-height: 1.3;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-family: inherit;
+}
+
+.section.-bgroxo {
+    background-color:#7C5E99;
+}
+
+.section.-bdpreto {
+    border-color:#000;
+}
+
+.main-footer{
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+    padding-top: 28px;
+    padding-bottom: 28px;
+}
+
+@media (max-width: 450px){
+   a.action{
+       font-family: inherit;
+       text-align: center;
+       font-size: 1.2rem;
+       
+   }
+   div.box{
+       width: 150%;
+       padding-right: 20px;
+       padding-left: -30px;
+       
+   }
+   .main-title{
+       font-size: 1.5rem;
+   }
+   .subtitle{
+       font-size: 1.3rem;
+   }
+   .section{
+       padding: 3rem;
+       
+   }
+   
+   .main-description{
+       font-size: 1.3rem;
+       padding: 0;
+       margin: 0;
+       text-align: inherit;
+   }
+   
+}
+
+@media (max-width: 768px){
+
+   a.button{
+        margin-top: 1rem;
+        display: block;
+        background-size: cover;
+        text-align: center;
+    }
+
+    .box{
+        width: 150%;
+        margin-left: -2rem;
+        
+    }
+    .banner{
+        background-image:none;
+        background-color: rgb(187, 184, 184);
+    }
+    .navigation{
+       visibility: hidden;
+    }
+    .section{
+        padding-left: 6rem;
+    }
+    .section.-bgBlack.-bdFirst{
+        padding-right: 4rem;
+    }
+
+    .main-description{
+        margin-left: -3rem;
+        margin-right: 1rem;
+    }
+}
